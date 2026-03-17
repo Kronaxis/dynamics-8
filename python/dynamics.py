@@ -1,5 +1,5 @@
 # DYNAMICS-8 Personality Framework - Canonical Python Reference Implementation
-# Copyright (c) 2026 Kronaxis Limited. Licensed under BSL 1.1. See LICENSE.
+# Copyright (c) 2026 Kronaxis Limited. Licensed under BSL 1.1. See LICENSE-BSL.
 #
 # Created by Jason Duke, Kronaxis Limited
 # https://kronaxis.co.uk/dynamics

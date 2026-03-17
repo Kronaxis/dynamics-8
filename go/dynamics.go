@@ -1,6 +1,6 @@
 // DYNAMICS-8 Personality Framework - Go Reference Implementation
 // Copyright (c) 2026 Kronaxis Limited. All rights reserved.
-// Licensed under BSL 1.1. See LICENSE file.
+// Licensed under BSL 1.1. See LICENSE-BSL.
 //
 // Created by Jason Duke, Kronaxis Limited
 // https://kronaxis.co.uk/dynamics

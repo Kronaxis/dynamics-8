@@ -1,6 +1,6 @@
 # DYNAMICS-8 Personality Framework - Test Suite
 # Copyright (c) 2026 Kronaxis Limited. All rights reserved.
-# Licensed under BSL 1.1. See LICENSE file.
+# Licensed under BSL 1.1. See LICENSE-BSL.
 
 """Basic tests for the DYNAMICS-8 Python reference implementation."""
 

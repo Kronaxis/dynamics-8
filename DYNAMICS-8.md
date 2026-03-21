@@ -507,7 +507,7 @@ The computational methods described in the Derivation Mappings (Section 6), Inte
 
 ### Reference Implementations
 
-Reference implementations of the DYNAMICS-8 framework in Python and Go are available under the Business Source Licence 1.1 (BSL 1.1) as part of the Kronaxis Forge and Kronaxis Panel Studio open-core distributions. The BSL 1.1 permits non-production use and converts to Apache 2.0 after the change date.
+Reference implementations of the DYNAMICS-8 framework in Python and Go are available as part of the Kronaxis Forge and Kronaxis Panel Studio distributions. Kronaxis Panel Studio is distributed under the Business Source Licence 1.1 (BSL 1.1), which permits non-production use and converts to Apache 2.0 after the change date. Kronaxis Forge is distributed under a proprietary licence; commercial use requires a separate licence from Kronaxis Limited.
 
 ### Contact
 

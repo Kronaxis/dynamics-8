@@ -290,6 +290,13 @@ func DeriveRiskTolerance(p DynamicsProfile) float64 {
 // political orientation is far more complex than any eight-dimensional model
 // can capture, but this provides a useful heuristic for persona generation.
 //
+// NOTE: This implementation diverges from the Python reference (dynamics.py
+// derive_political_lean). Go uses 5 dimensions (N, D, Y, C, S) with a
+// centre-offset accumulation model. Python uses 3 dimensions (N, C, Y) with
+// a pull/dampening model. For the same input profile, the two implementations
+// produce materially different results. Both are valid heuristics; they reflect
+// different design choices made independently.
+//
 // Heuristics applied:
 //   - High Novelty and low Discipline push left (openness, less tradition)
 //   - High Discipline and low Yielding push right (order, firmness)

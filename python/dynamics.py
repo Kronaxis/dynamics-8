@@ -522,6 +522,13 @@ def derive_risk_tolerance(p: DynamicsProfile) -> str:
 def derive_political_lean(p: DynamicsProfile) -> float:
     """Derive political left-right lean from Novelty, Candour, and Yielding.
 
+    NOTE: This implementation diverges from the Go reference (dynamics.go
+    DerivePoliticalLean). Python uses 3 dimensions (N, C, Y) with a
+    pull/dampening model. Go uses 5 dimensions (N, D, Y, C, S) with a
+    centre-offset accumulation model. For the same input profile, the two
+    implementations produce materially different results. Both are valid
+    heuristics; they reflect different design choices made independently.
+
     Returns a float from -1.0 (far left) to +1.0 (far right).
 
     Mechanics:

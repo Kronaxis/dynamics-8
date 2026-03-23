@@ -2,7 +2,7 @@
 
 An eight-dimension personality framework built for behavioural simulation.
 
-DYNAMICS-8 extends the Big Five and HEXACO models with two dimensions purpose-built for digital and economic behaviour: **Acuity** (digital fluency) and **Impulsivity** (delay discounting and reward sensitivity). Each dimension is a continuous float from 0.0 to 1.0 with four granular facets, giving 32 behavioural parameters per persona.
+DYNAMICS-8 extends the Big Five and HEXACO models with two dimensions built for digital and economic behaviour: **Acuity** (digital fluency) and **Impulsivity** (delay discounting and reward sensitivity). Each dimension is a continuous float from 0.0 to 1.0 with four granular facets, giving 32 behavioural parameters per persona.
 
 | Code | Dimension | Lineage |
 |------|-----------|---------|
@@ -50,7 +50,8 @@ Zero external dependencies. Copy `python/dynamics.py` into your project and impo
 
 ```bash
 cd python
-python -m pytest test_dynamics.py   # or: python -m unittest test_dynamics
+python -m unittest test_dynamics    # zero dependencies
+python -m pytest test_dynamics.py   # alternative, if pytest is installed
 ```
 
 ### Go
@@ -85,11 +86,11 @@ Read it online at [kronaxis.co.uk/dynamics](https://kronaxis.co.uk/dynamics).
 
 ## Use cases
 
-- **Synthetic consumer panels**: census-weighted personas with realistic decision-making
-- **AI training data**: personality-tagged causal reasoning traces
+- **Synthetic consumer panels**: census weighted personas with realistic decisions
+- **AI training data**: personality tagged causal reasoning traces
 - **Market research**: stimulus testing across personality segments
 - **Academic research**: population simulation for social science
-- **Game AI**: personality-driven NPC behaviour
+- **Game AI**: NPC behaviour driven by personality
 - **Chatbot personality**: consistent behavioural profiles for conversational agents
 
 ## Licence

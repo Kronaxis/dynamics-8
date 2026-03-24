@@ -240,7 +240,7 @@ Deep research reference. Every source listed with: exact URL/API endpoint, auth 
 - **Results portal:** https://www.verkiezingsuitslagen.nl/
 - **Data download:** Election Markup Language (EML) files at https://data.overheid.nl/community/organization/kiesraad
 - **GitHub:** https://github.com/kiesraad (maps, tools)
-- **Third-party scraper:** https://github.com/DIRKMJK/kiesraad (Python)
+- **Third party scraper:** https://github.com/DIRKMJK/kiesraad (Python)
 - **Format:** EML (XML-based), CSV (per gemeente from results pages), GeoJSON (maps)
 - **Auth:** None
 - **Granularity:** Gemeente (municipality), per polling station for recent elections

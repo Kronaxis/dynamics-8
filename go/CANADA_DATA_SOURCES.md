@@ -135,7 +135,7 @@ Boundary files (shapefiles): https://open.canada.ca/data/en/dataset/ef70dc3b-106
 
 All Census Profile downloads include all 2,600+ characteristics; individual tables offer more granular cross-tabulations.
 
-#### Third-Party API: CensusMapper / cancensus (R package)
+#### Third Party API: CensusMapper / cancensus (R package)
 
 | Field | Detail |
 |---|---|

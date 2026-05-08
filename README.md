@@ -1,8 +1,23 @@
-# DYNAMICS-8
+<p align="center">
+  <img src="assets/kronaxis-icon.svg" width="64" height="64" alt="Kronaxis">
+</p>
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+<h1 align="center">DYNAMICS-8</h1>
 
-> **Two new personality dimensions for the digital age — built for behavioural simulation, not for self-help.** DYNAMICS-8 takes the validated Big Five and HEXACO frameworks and adds **Acuity** (platform fluency, digital nativeness) and **Impulsivity** (delay discounting, reward sensitivity), the two axes that drive online decision-making but aren't captured by personality science designed in the 1990s.
+<p align="center">
+  <strong>Two new personality dimensions for the digital age — built for behavioural simulation, not for self-help.</strong>
+</p>
+
+<p align="center">
+  <a href="LICENSE">CC BY 4.0</a> &middot;
+  <a href="https://kronaxis.co.uk">Website</a> &middot;
+  <a href="https://kronaxis.co.uk/research">Research portfolio</a> &middot;
+  <a href="https://kronaxis.co.uk/dynamics">Full guide</a>
+</p>
+
+---
+
+DYNAMICS-8 takes the validated Big Five and HEXACO frameworks and adds **Acuity** (platform fluency, digital nativeness) and **Impulsivity** (delay discounting, reward sensitivity), the two axes that drive online decision-making but aren't captured by personality science designed in the 1990s.
 
 The result: a continuous 0.0–1.0 score on each of eight dimensions, four facets per dimension (32 parameters total), deterministically derivable into economic behaviour, political orientation, and population-segmentation cells. Used in production by [Panel Studio](https://github.com/Kronaxis/kronaxis-panel-studio) to simulate 500–65,000 personas at a time, and validated publicly by [KPM-1](https://github.com/Kronaxis/kpm1-election-projections) (pre-registered, hash-committed UK election predictions).
 

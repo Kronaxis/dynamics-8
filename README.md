@@ -1,19 +1,43 @@
 # DYNAMICS-8
 
-An eight-dimension personality framework built for behavioural simulation.
+[![License: CC BY 4.0](https://img.shields.io/badge/Spec-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Implementations: BSL 1.1](https://img.shields.io/badge/Code-BSL%201.1-orange.svg)](LICENSE)
 
-DYNAMICS-8 extends the Big Five and HEXACO models with two dimensions built for digital and economic behaviour: **Acuity** (digital fluency) and **Impulsivity** (delay discounting and reward sensitivity). Each dimension is a continuous float from 0.0 to 1.0 with four granular facets, giving 32 behavioural parameters per persona.
+> **Two new personality dimensions for the digital age — built for behavioural simulation, not for self-help.** DYNAMICS-8 takes the validated Big Five and HEXACO frameworks and adds **Acuity** (platform fluency, digital nativeness) and **Impulsivity** (delay discounting, reward sensitivity), the two axes that drive online decision-making but aren't captured by personality science designed in the 1990s.
+
+The result: a continuous 0.0–1.0 score on each of eight dimensions, four facets per dimension (32 parameters total), deterministically derivable into economic behaviour, political orientation, and population-segmentation cells. Used in production by [Panel Studio](https://github.com/Kronaxis/kronaxis-panel-studio) to simulate 500–65,000 personas at a time, and validated publicly by [KPM-1](https://github.com/Kronaxis/kpm1-election-projections) (pre-registered, hash-committed UK election predictions).
+
+## How it differs from Big Five and HEXACO
+
+| Framework | Dimensions | Built for | Captures digital fluency? | Captures impulsivity / delay discounting? |
+|---|---|---|---|---|
+| **Big Five (OCEAN)** | 5 | General personality science | ✗ | Partially (under Conscientiousness) |
+| **HEXACO** | 6 | Adds honesty/humility | ✗ | ✗ |
+| **DYNAMICS-8** | 8 | Behavioural simulation in the digital economy | ✓ (Acuity) | ✓ (Impulsivity) |
+
+Six of DYNAMICS-8's dimensions map cleanly to Big Five / HEXACO so you can interoperate with existing literature. The two new ones (A and I) are the load-bearing additions that make synthetic personas behave like real people online — not just on personality tests.
 
 | Code | Dimension | Lineage |
 |------|-----------|---------|
 | **D** | Discipline | Conscientiousness (Big Five) |
 | **Y** | Yielding | Agreeableness (Big Five, HEXACO) |
 | **N** | Novelty | Openness to Experience (Big Five) |
-| **A** | Acuity | *New: digital fluency and platform nativeness* |
+| **A** | Acuity | **New: digital fluency and platform nativeness** |
 | **M** | Mercuriality | Neuroticism / Emotionality (Big Five, HEXACO) |
-| **I** | Impulsivity | *New: delay discounting and reward sensitivity* |
+| **I** | Impulsivity | **New: delay discounting and reward sensitivity** |
 | **C** | Candour | Honesty-Humility (HEXACO) |
 | **S** | Sociability | Extraversion (Big Five, HEXACO) |
+
+## Part of the Kronaxis research stack
+
+DYNAMICS-8 is the foundation of a four-project open-source stack:
+
+1. **DYNAMICS-8** (this repo) — the framework and reference implementations
+2. [**Panel Studio**](https://github.com/Kronaxis/kronaxis-panel-studio) — the engine that simulates 500–65,000 DYNAMICS-tagged personas at a time
+3. [**KPM-1**](https://github.com/Kronaxis/kpm1-election-projections) — pre-registered, hash-verified election predictions (the public proof the stack works)
+4. [**Kronaxis Router**](https://github.com/Kronaxis/kronaxis-router) — the LLM proxy that makes running 65,000 simulated personas economically viable
+
+Each piece is independently usable; together they cover the loop from psychographic framework → simulated population → public falsifiable forecast → cost-efficient inference at scale.
 
 ## What it does
 

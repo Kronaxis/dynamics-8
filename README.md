@@ -1,7 +1,6 @@
 # DYNAMICS-8
 
-[![License: CC BY 4.0](https://img.shields.io/badge/Spec-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Implementations: BSL 1.1](https://img.shields.io/badge/Code-BSL%201.1-orange.svg)](LICENSE)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 > **Two new personality dimensions for the digital age — built for behavioural simulation, not for self-help.** DYNAMICS-8 takes the validated Big Five and HEXACO frameworks and adds **Acuity** (platform fluency, digital nativeness) and **Impulsivity** (delay discounting, reward sensitivity), the two axes that drive online decision-making but aren't captured by personality science designed in the 1990s.
 

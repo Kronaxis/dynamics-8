@@ -101,8 +101,19 @@ Read it online at [kronaxis.co.uk/dynamics](https://kronaxis.co.uk/dynamics).
 ## Citation
 
 ```
-Duke, J. (2026). DYNAMICS-8: A Purpose-Built Behavioural Simulation Framework.
-Kronaxis Limited. https://kronaxis.co.uk/dynamics
+Duke, J. (2026). DYNAMICS-8: An Eight-Dimension Personality Framework for
+Computational Behavioural Simulation. Zenodo. https://doi.org/10.5281/zenodo.19361059
+```
+
+```bibtex
+@article{duke_dynamics8_2026,
+  title={DYNAMICS-8: An Eight-Dimension Personality Framework for Computational Behavioural Simulation},
+  author={Duke, Jason},
+  year={2026},
+  doi={10.5281/zenodo.19361059},
+  url={https://doi.org/10.5281/zenodo.19361059},
+  publisher={Zenodo}
+}
 ```
 
 ## Patent notice

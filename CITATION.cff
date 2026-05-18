@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use DYNAMICS-8 in your research, please cite the preprint."
+type: software
+title: "DYNAMICS-8 — An Eight-Dimension Personality Framework for Computational Behavioural Simulation"
+abstract: >-
+  DYNAMICS-8 is an eight-dimension personality framework for computational
+  behavioural simulation. The model retains six validated dimensions from
+  Big Five and HEXACO personality science and introduces two new dimensions
+  addressing digital fluency and reward sensitivity (Acuity and Impulsivity).
+  Validation against 1,000 synthetic personas confirmed all hypotheses with
+  effect sizes ranging from 0.21 to 5.32. The framework is the basis for
+  the persona panels used in Kronaxis Panel Studio, KPM-1 election
+  forecasting, and the broader Kronaxis research stack.
+authors:
+  - family-names: "Duke"
+    given-names: "Jason"
+    affiliation: "Kronaxis Limited"
+    email: "jason@kronaxis.co.uk"
+license: CC-BY-4.0
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+repository-code: "https://github.com/Kronaxis/dynamics-8"
+keywords:
+  - "personality framework"
+  - "behavioural simulation"
+  - "synthetic personas"
+  - "Big Five"
+  - "HEXACO"
+  - "computational social science"
+  - "DYNAMICS-8"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.19361059"
+    description: "The DYNAMICS-8 preprint (preferred citation)."
+preferred-citation:
+  type: article
+  title: "DYNAMICS-8: An Eight Dimension Personality Framework for Computational Behavioural Simulation"
+  authors:
+    - family-names: "Duke"
+      given-names: "Jason"
+      affiliation: "Kronaxis Limited"
+  year: 2026
+  month: 4
+  publisher:
+    name: "Zenodo"
+  doi: "10.5281/zenodo.19361059"
+  url: "https://doi.org/10.5281/zenodo.19361059"
+  license: "CC-BY-4.0"
